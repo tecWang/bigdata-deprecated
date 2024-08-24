@@ -1,14 +1,6 @@
-
 import java.io.File
 
-object t {
-  def main(args: Array[String]): Unit = {
-    println("hello")
-  }
-}
-
-object TestMethod {
-
+object AFunction {
   //  自定义方法
   private def add(a:Int, b:Int):Int = {
     a + b
@@ -63,7 +55,7 @@ object TestMethod {
     println("function add2 return: " + add(10,20))
     sayHello()
     sayHelloV2("test")
-//    listFiles("C:\\Users\\tecwang\\IdeaProjects\\scala\\src")
+    //    listFiles("C:\\Users\\tecwang\\IdeaProjects\\scala\\src")
 
     // 函数作为参数
     println("calculate return:" + calculate(70, 20, add2))
@@ -74,5 +66,3 @@ object TestMethod {
     println("getFunc result:" + getFuncV2(100)(1,2))
   }
 }
-
-

@@ -1,3 +1,5 @@
+package com.scala.learning
+
 import scala.collection.mutable.ArrayBuffer
 
 object BDataStructMutableArray {

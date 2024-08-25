@@ -1,3 +1,5 @@
+package com.scala.learning
+
 object BDataStructImmutableArray {
 
   val arr:Array[Int] = Array[Int](1,2,3,4,5,6)

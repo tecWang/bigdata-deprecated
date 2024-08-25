@@ -1,3 +1,5 @@
+package com.scala.learning
+
 import java.io.File
 
 object AFunction {

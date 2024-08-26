@@ -1,0 +1,1 @@
+log when learn scala

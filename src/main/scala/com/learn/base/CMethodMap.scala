@@ -1,4 +1,4 @@
-package com.scala.base
+package com.learn.base
 
 object CMethodMap {
   def main(args: Array[String]): Unit = {
@@ -19,5 +19,14 @@ object CMethodMap {
       else (item, "odd")
     })
     println("arr3 print: " + arr3)
+
+    // 下划线不能单独使用，即map不能arr.map(_), 最少也是arr.map(_*2)
+    // 下划线只能使用一次，即map不能arr.map(if (_ % 2 == 0) then _ else _ * 2)
+    // 如果语义不同的话，可以使用两次，比如reduce的情况
+    val arr4 = arr.map(_*2)
+    println(arr4)
+    val arr5 = arr.reduce(_+_)    // 28
+    println(arr5)
+
   }
 }

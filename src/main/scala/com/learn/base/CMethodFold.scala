@@ -1,4 +1,4 @@
-package com.scala.base
+package com.learn.base
 
 object CMethodFold {
   def main(args: Array[String]): Unit = {

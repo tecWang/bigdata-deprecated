@@ -1,4 +1,4 @@
-package com.scala.base
+package com.learn.base
 
 object CMethodFlatten {
   def main(args: Array[String]): Unit = {

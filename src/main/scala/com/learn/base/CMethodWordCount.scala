@@ -27,5 +27,16 @@ object CMethodWordCount {
 //      .mapValues(item => item.foldLeft(0)((a,b) => a + b._2))
       .mapValues(item => item.aggregate(0)((a,b) => a + b._2, null))
       .foreach(println)
+
+    // V3 使用下划线开始改造
+    println("----------------------------------------------------------------")
+    val it7:Iterator[String] = Source.fromFile("data/word.csv").getLines()
+    val it8:Iterator[String] = it7.flatMap(_.split(","))
+    it8.map((_, 1))
+      .toList   // 迭代器不能分组，需要先转化为list
+      .groupBy(_._1)
+      .mapValues(_.size)
+      .foreach(println)
+
   }
 }

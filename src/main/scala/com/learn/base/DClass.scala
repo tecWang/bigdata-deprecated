@@ -6,6 +6,7 @@ import scala.beans.BeanProperty
 // 构造器在new class的时候被调用，用于初始化对象
 // 声明的时候如果是val，后续属性不能更改
 // 构造器的变量如果不加 val/var，则该变量会被认为是一个参数，而非一个属性，只有类内部能用，外部 s.addr的方式无法访问
+// 构造器中使用val，var的区别不大
 class Student(
                val id:Int,
                var addr:String,

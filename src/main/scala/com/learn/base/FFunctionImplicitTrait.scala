@@ -29,23 +29,23 @@ package com.learn.base
 //}
 
 // V4
-class Actor (val name:String, val age:Int)
-object MyActor {
+class ActorLearn(val name:String, val age:Int)
+object MyActorLearn {
   // 依靠隐式转换实现
   // 位置需要放在最上边
-  implicit def ActorOrderingv2(x:Actor) = new Ordered[Actor] {
-    override def compare(that: Actor): Int = that.age - x.age
+  implicit def ActorOrderingv2(x:ActorLearn) = new Ordered[ActorLearn] {
+    override def compare(that: ActorLearn): Int = that.age - x.age
   }
 }
 
 
 object FFunctionImplicitTrait {
   def main(args: Array[String]): Unit = {
-    val a1 = new Actor("liu DeHua", 35)
-    val a2 = new Actor("lady gaga", 40)
-    val a3 = new Actor("Zhu XiuLan", 33)
+    val a1 = new ActorLearn("liu DeHua", 35)
+    val a2 = new ActorLearn("lady gaga", 40)
+    val a3 = new ActorLearn("Zhu XiuLan", 33)
 
-    val arr:Array[Actor] = Array(a1, a2, a3)
+    val arr:Array[ActorLearn] = Array(a1, a2, a3)
 
     // V1
 //    arr.sorted.foreach(t => println(t.name, t.age))
@@ -65,7 +65,7 @@ object FFunctionImplicitTrait {
 //    println(implicitly[MyActor.ActorOrdering.type ])    // com.learn.base.MyActor$ActorOrdering$@dfd3711
 
     // V4
-    import MyActor.ActorOrderingv2
+    import MyActorLearn.ActorOrderingv2
     arr.sorted.foreach(t => println(t.name, t.age))
   }
 }

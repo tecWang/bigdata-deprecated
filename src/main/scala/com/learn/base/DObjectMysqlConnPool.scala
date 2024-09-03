@@ -48,17 +48,20 @@ object MysqlConnectUtil {
 }
 
 object DObjectMysqlConnPool {
-  // 测试conn
-  val conn1 = MysqlConnectUtil.getConn
-  val conn2 = MysqlConnectUtil.getConn
-  val conn3 = MysqlConnectUtil.getConn
-  val conn4 = MysqlConnectUtil.getConn
-  println(conn1)
-  println(conn2)
-  println(conn3)
-  println(conn4)
-  MysqlConnectUtil.returnConn(conn1)
-  MysqlConnectUtil.returnConn(conn2)
-  MysqlConnectUtil.returnConn(conn3)
-  MysqlConnectUtil.returnConn(conn4)
+  def main(args: Array[String]): Unit = {
+    // 测试conn
+    val conn1 = MysqlConnectUtil.getConn
+    val conn2 = MysqlConnectUtil.getConn
+    val conn3 = MysqlConnectUtil.getConn
+    val conn4 = MysqlConnectUtil.getConn
+    println(conn1)
+    println(conn2)
+    println(conn3)
+    println(conn4)
+    MysqlConnectUtil.returnConn(conn1)
+    MysqlConnectUtil.returnConn(conn2)
+    MysqlConnectUtil.returnConn(conn3)
+    MysqlConnectUtil.returnConn(conn4)
+
+  }
 }

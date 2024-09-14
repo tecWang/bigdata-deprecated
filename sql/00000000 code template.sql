@@ -24,7 +24,7 @@
 
 -- * ==============================================================
 
--- * solution n: desc
+-- * solution 1: desc
 -- todo: sql here
 
 -- * key points:

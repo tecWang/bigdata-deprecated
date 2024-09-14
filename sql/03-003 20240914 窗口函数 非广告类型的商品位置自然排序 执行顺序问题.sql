@@ -48,7 +48,7 @@ load data local inpath "/usr/local/base.txt" into table test.base;
 
 -- * ==============================================================
 
--- * solution n: desc
+-- * solution 1: desc
 
 select
     user_id,
@@ -100,6 +100,51 @@ from base
 --         +- Exchange hashpartitioning(user_id#67, 200)         
 --             +- HiveTableScan [user_id#67, goods_name#68, goods_type#69, rk#70], MetastoreRelation default, window_goods_test
 -- Time taken: 0.238 seconds, Fetched 1 row(s)
+
+-- * output:
+-- 1       hadoop  10      1       1
+-- 1       hive    12      2       2
+-- 1       sqoop   26      3       NULL
+-- 1       hbase   10      4       3
+-- 1       spark   13      5       4
+-- 1       flink   26      6       NULL
+-- 1       kafka   14      7       5
+-- 1       oozie   10      8       6
+-- * ==============================================================
+
+-- * ==============================================================
+
+-- * solution 2: desc
+select 
+    user_id,
+    goods_name,
+    goods_type,
+    rk,
+    if(
+        goods_type != 26,
+        -- 此处选随机数会不会跟user_id撞上啊 ？
+            -- 不会，rand() 的结果是一个浮点小数，user_id 是整型
+        row_number() over(partition by if(goods_type != 26, user_id, rand()) order by rk),
+        null
+    ) as naturl_rank
+from base
+order by rk
+;
+
+-- 可以看到，在 sort 之前，先执行了一轮 project
+    -- 内容为: if (NOT (goods_type#226 = 26)) cast(user_id#224 as double) else rand(1495282467312192326) AS _w0#229
+-- == Physical Plan 
+-- ==*Sort [rk#227 ASC NULLS FIRST], true, 0
+--     +- Exchange rangepartitioning(rk#227 ASC NULLS FIRST, 200)   
+--         +- *Project [user_id#224, goods_name#225, goods_type#226, rk#227, if (NOT (goods_type#226 = 26)) _we0#230 else null AS naturl_rank#221]      
+--             +- Window [row_number() windowspecdefinition(_w0#229, rk#227 ASC NULLS FIRST, ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS _we0#230], [_w0#229], [rk#227 ASC NULLS FIRST]         
+--                 +- *Sort [_w0#229 ASC NULLS FIRST, rk#227 ASC NULLS FIRST], false, 0            
+--                     +- Exchange hashpartitioning(_w0#229, 200)               
+--                         +- *Project [user_id#224, goods_name#225, goods_type#226, rk#227, if (NOT (goods_type#226 = 26)) cast(user_id#224 as double) else rand(1495282467312192326) AS _w0#229]                  
+--                             +- HiveTableScan [user_id#224, goods_name#225, goods_type#226, rk#227], MetastoreRelation default, window_goods_testTime taken: 0.186 seconds, Fetched 1 row(s)
+
+-- * key points:
+-- * desc  :
 
 -- * output:
 -- 1       hadoop  10      1       1

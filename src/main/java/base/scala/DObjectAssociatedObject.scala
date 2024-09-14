@@ -1,4 +1,4 @@
-package base.scala
+package com.base.learn.scala
 
 // 案例2
 class Teacher (val name:String, val age:Int) {}

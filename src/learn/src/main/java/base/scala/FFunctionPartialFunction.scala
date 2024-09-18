@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 // 偏函数是函数的一种
 // 因此，正常可以穿函数的地方，也都可以传偏函数

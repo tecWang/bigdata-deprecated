@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 class NormalCat(val name:String, val sex:String)
 

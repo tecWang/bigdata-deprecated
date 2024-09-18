@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 // 注册为 case class
 case class GAkkaClusterCommunicateRegisterInfo(

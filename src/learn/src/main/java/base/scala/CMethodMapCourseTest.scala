@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 object CMethodMapCourseTest {
   def main(args: Array[String]): Unit = {

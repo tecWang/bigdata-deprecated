@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 /*
 *  + 表示协变 返回值是协变. 在协变下，A是父类，B是子类，是正向的

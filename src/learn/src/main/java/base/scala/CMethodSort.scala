@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 object CMethodSort {
   def main(args: Array[String]): Unit = {

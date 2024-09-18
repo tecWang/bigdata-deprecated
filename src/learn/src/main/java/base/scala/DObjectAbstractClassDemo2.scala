@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 trait MagicFunctions {
   def fire = println("i can fire")

@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 import java.sql.{Connection, DriverManager}
 import scala.collection.mutable.ListBuffer

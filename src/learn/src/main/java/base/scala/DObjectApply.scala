@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 class Cat(val name:String, val sex:String)
 

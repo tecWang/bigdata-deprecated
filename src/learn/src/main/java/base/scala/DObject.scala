@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 // 静态类/常量类，更适合存放工具，常量等内容
 // 类加载的时候优先加载静态内容，且只加载一次

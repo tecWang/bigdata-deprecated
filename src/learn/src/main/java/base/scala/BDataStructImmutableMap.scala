@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 import scala.collection.mutable.Map
 

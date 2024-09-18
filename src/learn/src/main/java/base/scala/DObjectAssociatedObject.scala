@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 // 案例2
 class Teacher (val name:String, val age:Int) {}
@@ -19,7 +19,7 @@ object Teacher {
 //class School(private val salary:Int, val name:String) {
 //class School(private[this] val salary:Int, val name:String) {
 // 此处也可以写包名，但是不能写包的完整路径，也不能写包的子路径，对于本case，可以写com/learn/base
-class School(private[learn] val salary:Int, val name:String) {
+class School(private[scala] val salary:Int, val name:String) {
   // 构造函数前边也可以加 private 关键字
 //class School private (private[learn] val salary:Int, val name:String) {
   // class前边也可以加 private 关键字

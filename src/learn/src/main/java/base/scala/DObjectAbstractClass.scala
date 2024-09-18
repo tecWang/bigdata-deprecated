@@ -1,4 +1,4 @@
-package org.base.scala
+package base.scala
 
 // 抽象类：
   // 与java类型，只是java没有属性的抽象，scala可以又属性的抽象

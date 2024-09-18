@@ -1,6 +1,6 @@
-package org.base.scala
+package base.scala
 
-import org.base.scala.MyEnum.sexEnum
+import MyEnum.sexEnum
 
 class Message[T] (val msg: T) {
   def getMsg():T = msg

@@ -28,9 +28,9 @@ object BSparkRDDOperateTransformWordCount {
           //    (csv,CompactBuffer(csv, csv, csv, csv, csv))
           //    (install,CompactBuffer(install, install, install, install, install))
       // string的 rdd 有 mapValues方法
-      .mapValues(itar => {
+      .mapValues(it => {
             var len = 0
-            for(s <- itar) len += 1
+            for(s <- it) len += 1
             len
           })
           //    (ultimate,5)

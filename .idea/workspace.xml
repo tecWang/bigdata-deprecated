@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformDistinct.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupBy.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupByKey.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformMapValue.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformSortBy.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformWordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformSortByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/data/demo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/word.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/data/word.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDTransformMethodsDistinct.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDTransformMethodsFilter.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDTransformMethodsFlatMap.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDTransformMethodsGroupby.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDTransformMethodsMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformMap.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDTransformMethodsShuffle.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDTransformMethodsSortby.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/test/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformReduceByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformWordCount.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +26,12 @@
     &quot;assignee&quot;: &quot;tecWang&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/tecWang/bigdata.git&quot;,
-    &quot;accountId&quot;: &quot;11668b21-13e2-48f5-8dd0-bddc7041558f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tecWang/bigdata.git",
+    "accountId": "ff3f1c4c-d5d5-45dc-8ee0-4a30eb20c9d0"
   }
-}</component>
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -65,6 +52,8 @@
     "Application.ASparkHelloWorld.executor": "Run",
     "Application.BSparkRDDOperateTransformGroupByKey.executor": "Run",
     "Application.BSparkRDDOperateTransformMapValue.executor": "Run",
+    "Application.BSparkRDDOperateTransformReduceByKey.executor": "Run",
+    "Application.BSparkRDDOperateTransformSortByKey.executor": "Run",
     "Application.BSparkRDDOperateTransformWordCount.executor": "Run",
     "Application.BSparkRDDTransformMethodsDistinct.executor": "Run",
     "Application.BSparkRDDTransformMethodsGroupby.executor": "Run",
@@ -75,6 +64,7 @@
     "Application.base.spark.ASparkHelloWorld.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/rumor/.github/bigdata",
     "project.structure.last.edited": "Modules",
@@ -91,7 +81,7 @@
       <recent name="org.base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BSparkRDDOperateTransformGroupByKey">
+  <component name="RunManager" selected="Application.BSparkRDDOperateTransformSortByKey">
     <configuration name="BSparkRDDOperateTransformGroupByKey" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformGroupByKey" />
       <module name="learn" />
@@ -118,6 +108,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BSparkRDDOperateTransformReduceByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformReduceByKey" />
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BSparkRDDOperateTransformSortByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformSortByKey" />
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BSparkRDDOperateTransformWordCount" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformWordCount" />
       <module name="learn" />
@@ -131,39 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSparkRDDTransformMethodsDistinct" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDTransformMethodsDistinct" />
-      <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BSparkRDDTransformMethodsSortby" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDTransformMethodsSortby" />
-      <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BSparkRDDOperateTransformSortByKey" />
+        <item itemvalue="Application.BSparkRDDOperateTransformReduceByKey" />
         <item itemvalue="Application.BSparkRDDOperateTransformGroupByKey" />
         <item itemvalue="Application.BSparkRDDOperateTransformWordCount" />
         <item itemvalue="Application.BSparkRDDOperateTransformMapValue" />
-        <item itemvalue="Application.BSparkRDDTransformMethodsSortby" />
-        <item itemvalue="Application.BSparkRDDTransformMethodsDistinct" />
       </list>
     </recent_temporary>
   </component>

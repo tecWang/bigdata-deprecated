@@ -23,14 +23,27 @@ object BSparkRDDOperateTransformGroupByKey {
         //  private[spark] class CompactBuffer[T: ClassTag] extends Seq[T] with Serializable {
 
     // 将 value 值相加
-    val rdd3: RDD[(String, Int)] = rdd2.mapValues(itar => {
-        var res = 0
-        for (value <- itar) res += value
-        res
-      })
-      //    (a,4)
-      //    (b,2)
-      //    (c,4)
+    // 第一种实现方式，直接 for 循环
+//    val rdd3: RDD[(String, Int)] = rdd2.mapValues(it => {
+//        var res = 0
+//        for (value <- it) res += value
+//        res
+//      })
+    //    (a,4)
+    //    (b,2)
+    //    (c,4)
+
+    // 第二种实现方式，借助于迭代器
+    val rdd3: RDD[(String, Int)] = rdd2.mapValues(it => {
+      var sum = 0
+      val iterator: Iterator[Int] = it.iterator
+      while (iterator.hasNext)
+        sum += iterator.next()
+      sum
+    })
+    //    (a,4)
+    //    (b,2)
+    //    (c,4)
 
     rdd3
       .collect()

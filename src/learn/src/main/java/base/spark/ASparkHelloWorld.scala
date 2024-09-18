@@ -4,6 +4,31 @@ package base.spark
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.{Dataset, SparkSession}
 
+/*
+* 转换算子
+*   value类型：
+*     map
+*     flatmap
+*     groupBy
+*     filter
+*     distinct
+*     sortBy
+*   key-value类型：
+*     mapValue
+*     groupByKey
+*     reduceByKey
+*     sortByKey
+* 行动算子
+*   collect
+*   count
+*   first
+*   take
+*   countByKey
+*   save
+*   foreach
+*   foreachPartition
+* */
+
 // 变更目录或模块后，要记得 mark source root，否则会报 找不到 xx 类
 object ASparkHelloWorld {
 

@@ -1,5 +1,7 @@
 package base.spark
 
-class BSparkRDDOperateTransformReduceByKey {
-
+object BSparkRDDOperateTransformReduceByKey {
+  def main(args: Array[String]): Unit = {
+    
+  }
 }

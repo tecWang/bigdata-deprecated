@@ -24,7 +24,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 *   3. 恢复mysql的依赖，jsckson 还是只有一套，暂时没有发现影响。待继续观察。
 * */
 
-object BSparkRDDTransformMethodsMap {
+object BSparkRDDOperateTransformMap {
   def main(args: Array[String]): Unit = {
     // 创建一个 conf 对象
     val conf = new SparkConf()

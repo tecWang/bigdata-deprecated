@@ -3,7 +3,7 @@ package base.spark
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.rdd.RDD
 
-object BSparkRDDTransformMethodsSortby {
+object BSparkRDDOperateTransformSortBy {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
     conf.setMaster("local[*]")

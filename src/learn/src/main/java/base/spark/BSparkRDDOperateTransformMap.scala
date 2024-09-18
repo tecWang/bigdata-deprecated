@@ -12,6 +12,18 @@ import org.apache.spark.{SparkConf, SparkContext}
 *   2. 键值类型
 * */
 
+//
+//
+//
+
+/*
+* Exception in thread "main" java.lang.ExceptionInInitializerError at org.apache.spark.SparkContext.withScope(SparkContext.scala:701)
+* stack overflow 反馈说是因为 jackson 版本兼容的问题，
+*   1. 查看外部依赖，jackson 确实有两套。 注掉 mysql 模块下边的依赖后， jackson 变成一套，但是问题依然没有解决。
+*   2. 进一步排查发现是，jdk 用了 openjdk22，于是调整 jdk 为 jdk8，问题解决。
+*   3. 恢复mysql的依赖，jsckson 还是只有一套，暂时没有发现影响。待继续观察。
+* */
+
 object BSparkRDDTransformMethodsMap {
   def main(args: Array[String]): Unit = {
     // 创建一个 conf 对象

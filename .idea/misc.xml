@@ -9,7 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/src/main/java/base/mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/spark/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/base/spark/pom.xml" />
       </set>
     </option>
   </component>

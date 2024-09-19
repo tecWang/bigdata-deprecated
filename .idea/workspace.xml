@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateActionCollect.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateActionOther.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/ActorPerson.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/Person.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/Search.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/StringSearch.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/test/TestActorPerson.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

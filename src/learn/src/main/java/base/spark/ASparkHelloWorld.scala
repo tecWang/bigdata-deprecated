@@ -12,7 +12,7 @@ import org.apache.spark.sql.{Dataset, SparkSession}
 *     filter没有改变分区的能力，如果filter
 *   key-value类型：
 *     mapValues, groupByKey, reduceByKey, sortByKey
-* 行动算子： 
+* 行动算子：
 *   collect, count, countByKey
 *   first, take
 *   save

@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformFilter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateActionCollect.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateActionOther.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/ActorPerson.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/Person.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/Search.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/StringSearch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/test/TestActorPerson.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformReduceByKey.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sql/00000000 spark部署操作步骤.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql/00000000 spark部署操作步骤.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +53,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ASparkHelloWorld.executor": "Run",
+    "Application.BSparkRDDOperateActionCollect.executor": "Run",
+    "Application.BSparkRDDOperateActionCount.executor": "Run",
+    "Application.BSparkRDDOperateActionOther.executor": "Run",
     "Application.BSparkRDDOperateTransformFilter.executor": "Run",
     "Application.BSparkRDDOperateTransformGroupByKey.executor": "Run",
     "Application.BSparkRDDOperateTransformMapValue.executor": "Run",
@@ -61,8 +67,10 @@
     "Application.BSparkRDDTransformMethodsMap.executor": "Run",
     "Application.BSparkRDDTransformMethodsShuffle.executor": "Run",
     "Application.BSparkRDDTransformMethodsSortby.executor": "Run",
+    "Application.TestUtilActor.executor": "Run",
     "Application.base.spark.ASparkHelloWorld (1).executor": "Run",
     "Application.base.spark.ASparkHelloWorld.executor": "Debug",
+    "Application.test.executor": "Run",
     "Maven.bigdata [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -83,9 +91,9 @@
       <recent name="org.base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BSparkRDDOperateTransformFilter">
-    <configuration name="BSparkRDDOperateTransformFilter" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformFilter" />
+  <component name="RunManager" selected="Application.BSparkRDDOperateActionOther">
+    <configuration name="BSparkRDDOperateActionCollect" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateActionCollect" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSparkRDDOperateTransformGroupByKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformGroupByKey" />
+    <configuration name="BSparkRDDOperateActionCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateActionCount" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSparkRDDOperateTransformReduceByKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformReduceByKey" />
+    <configuration name="BSparkRDDOperateActionOther" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateActionOther" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -123,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSparkRDDOperateTransformSortByKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformSortByKey" />
+    <configuration name="TestUtilActor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.utils.test.TestUtilActor" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.spark.*" />
+          <option name="PATTERN" value="base.utils.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSparkRDDOperateTransformWordCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformWordCount" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.test" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BSparkRDDOperateTransformFilter" />
-        <item itemvalue="Application.BSparkRDDOperateTransformReduceByKey" />
-        <item itemvalue="Application.BSparkRDDOperateTransformSortByKey" />
-        <item itemvalue="Application.BSparkRDDOperateTransformGroupByKey" />
-        <item itemvalue="Application.BSparkRDDOperateTransformWordCount" />
+        <item itemvalue="Application.BSparkRDDOperateActionOther" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.TestUtilActor" />
+        <item itemvalue="Application.BSparkRDDOperateActionCount" />
+        <item itemvalue="Application.BSparkRDDOperateActionCollect" />
       </list>
     </recent_temporary>
   </component>

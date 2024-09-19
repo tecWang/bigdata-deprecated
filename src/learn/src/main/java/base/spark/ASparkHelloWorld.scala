@@ -5,28 +5,18 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.{Dataset, SparkSession}
 
 /*
-* 转换算子
+* 转换算子： 将旧的 rdd 转换为新的 rdd
 *   value类型：
-*     map
-*     flatmap
-*     groupBy
-*     filter
-*     distinct
-*     sortBy
+*     map, flatmap, groupBy
+*     filter, distinct, sortBy
+*     filter没有改变分区的能力，如果filter
 *   key-value类型：
-*     mapValue
-*     groupByKey
-*     reduceByKey
-*     sortByKey
-* 行动算子
-*   collect
-*   count
-*   first
-*   take
-*   countByKey
+*     mapValues, groupByKey, reduceByKey, sortByKey
+* 行动算子： 
+*   collect, count, countByKey
+*   first, take
 *   save
-*   foreach
-*   foreachPartition
+*   foreach, foreachPartition
 * */
 
 // 变更目录或模块后，要记得 mark source root，否则会报 找不到 xx 类

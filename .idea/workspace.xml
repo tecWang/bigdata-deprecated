@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformSortByKey.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformFilter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformReduceByKey.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformWordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql/00000000 spark部署操作步骤.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql/00000000 spark部署操作步骤.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +26,12 @@
     &quot;assignee&quot;: &quot;tecWang&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tecWang/bigdata.git",
-    "accountId": "ff3f1c4c-d5d5-45dc-8ee0-4a30eb20c9d0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tecWang/bigdata.git&quot;,
+    &quot;accountId&quot;: &quot;ff3f1c4c-d5d5-45dc-8ee0-4a30eb20c9d0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -50,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ASparkHelloWorld.executor": "Run",
+    "Application.BSparkRDDOperateTransformFilter.executor": "Run",
     "Application.BSparkRDDOperateTransformGroupByKey.executor": "Run",
     "Application.BSparkRDDOperateTransformMapValue.executor": "Run",
     "Application.BSparkRDDOperateTransformReduceByKey.executor": "Run",
@@ -62,6 +63,7 @@
     "Application.BSparkRDDTransformMethodsSortby.executor": "Run",
     "Application.base.spark.ASparkHelloWorld (1).executor": "Run",
     "Application.base.spark.ASparkHelloWorld.executor": "Debug",
+    "Maven.bigdata [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -81,9 +83,9 @@
       <recent name="org.base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BSparkRDDOperateTransformSortByKey">
-    <configuration name="BSparkRDDOperateTransformGroupByKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformGroupByKey" />
+  <component name="RunManager" selected="Application.BSparkRDDOperateTransformFilter">
+    <configuration name="BSparkRDDOperateTransformFilter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformFilter" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSparkRDDOperateTransformMapValue" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformMapValue" />
+    <configuration name="BSparkRDDOperateTransformGroupByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateTransformGroupByKey" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BSparkRDDOperateTransformSortByKey" />
+        <item itemvalue="Application.BSparkRDDOperateTransformFilter" />
         <item itemvalue="Application.BSparkRDDOperateTransformReduceByKey" />
+        <item itemvalue="Application.BSparkRDDOperateTransformSortByKey" />
         <item itemvalue="Application.BSparkRDDOperateTransformGroupByKey" />
         <item itemvalue="Application.BSparkRDDOperateTransformWordCount" />
-        <item itemvalue="Application.BSparkRDDOperateTransformMapValue" />
       </list>
     </recent_temporary>
   </component>
@@ -167,5 +169,16 @@
       <updated>1726625743622</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/app1/GetTop10Categories.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/data/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/demo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/data/word.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/word.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/ASparkHelloWorld.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkSaveAsTextFileMultiPartition.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/ASparkSaveAsTextFileMultiPartition.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateActionCollect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateActionCollect.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateActionOther.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateActionOther.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformDistinct.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformDistinct.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformFilter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformFilter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformGroupBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformGroupByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformMapValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformMapValue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformReduceByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformSortBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformSortBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformSortByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformSortByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformWordCount.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +76,7 @@
     "Application.BSparkRDDTransformMethodsMap.executor": "Run",
     "Application.BSparkRDDTransformMethodsShuffle.executor": "Run",
     "Application.BSparkRDDTransformMethodsSortby.executor": "Run",
+    "Application.GetTop10Categories.executor": "Run",
     "Application.TestUtilActor.executor": "Run",
     "Application.base.spark.ASparkHelloWorld (1).executor": "Run",
     "Application.base.spark.ASparkHelloWorld.executor": "Debug",
@@ -77,26 +95,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tecwang\GitRepos\bigdata" />
       <recent name="C:\Users\rumor\.github\bigdata\src\learn" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BSparkRDDOperateActionOther">
-    <configuration name="BSparkRDDOperateActionCollect" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateActionCollect" />
-      <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.GetTop10Categories">
     <configuration name="BSparkRDDOperateActionCount" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateActionCount" />
       <module name="learn" />
@@ -116,6 +122,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="base.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTop10Categories" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.spark.app1.GetTop10Categories" />
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.spark.app1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetTop10Categories" />
         <item itemvalue="Application.BSparkRDDOperateActionOther" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.TestUtilActor" />
         <item itemvalue="Application.BSparkRDDOperateActionCount" />
-        <item itemvalue="Application.BSparkRDDOperateActionCollect" />
       </list>
     </recent_temporary>
   </component>

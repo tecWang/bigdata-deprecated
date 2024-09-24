@@ -1,4 +1,4 @@
-package base.spark
+package base.spark.base
 
 import base.utils.{ActorPerson, StringSearch}
 import org.apache.spark.{SparkConf, SparkContext}

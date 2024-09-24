@@ -1,5 +1,5 @@
 
-package base.spark
+package base.spark.base
 
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.{Dataset, SparkSession}

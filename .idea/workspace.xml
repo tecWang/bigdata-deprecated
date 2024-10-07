@@ -4,25 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/app1/GetTop10Categories.scala" afterDir="false" />
+    <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="20241005 优化mysql安装步骤，初学flink，跑通wordcount程序">
+      <change afterPath="$PROJECT_DIR$/src/base/flink/AFlinkWordCountDataStream.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/00000000 [win11]本地使用docker创建centos容器.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/tmp.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_19_2024_8_47_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_19_2024_8_47_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/data/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/demo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/data/word.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/word.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkHelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/ASparkHelloWorld.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/ASparkSaveAsTextFileMultiPartition.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/ASparkSaveAsTextFileMultiPartition.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateActionCollect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateActionCollect.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateActionOther.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateActionOther.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformDistinct.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformDistinct.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformFilter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformFilter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformGroupBy.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformGroupByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformGroupByKey.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformMap.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformMapValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformMapValue.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformReduceByKey.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformSortBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformSortBy.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformSortByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformSortByKey.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/BSparkRDDOperateTransformWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformWordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/flink/AFlinkWordCountDataSet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/flink/AFlinkWordCountDataSet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/AFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/AFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructImmutableArray.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructImmutableArray.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructImmutableMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructImmutableMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructLazy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructLazy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructList.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructMutableArray.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructMutableArray.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructMutableMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructMutableMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructSet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructSet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructTuple.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructTuple.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/BDataStructTupleCourseTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/BDataStructTupleCourseTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodAggregate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodAggregate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodDiff.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodDiff.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodFilter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodFilter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodFlatMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodFlatMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodFlatMapCourseTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodFlatMapCourseTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodFlatten.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodFlatten.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodFold.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodFold.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodForEach.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodForEach.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodGroupBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodGroupBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodGrouped.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodGrouped.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodMapCourseTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodMapCourseTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodMapValues.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodMapValues.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodPar.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodPar.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodReduce.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodReduce.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/CMethodWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/CMethodWordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObject.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectAbstractClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectAbstractClass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectAbstractClassDemo2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectAbstractClassDemo2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectApply.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectApply.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectAssociatedObject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectAssociatedObject.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectCaseClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectCaseClass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectClass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectGenericClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectGenericClass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectGenericType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectGenericType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectMysqlConnPool.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectMysqlConnPool.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/DObjectType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/DObjectType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/EMatchComplex.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/EMatchComplex.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/EMatchType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/EMatchType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/EMatchValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/EMatchValue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/FFunctionCurring.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/FFunctionCurring.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/FFunctionImplicitFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/FFunctionImplicitFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/FFunctionImplicitTrait.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/FFunctionImplicitTrait.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/FFunctionPartialFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/FFunctionPartialFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/GAkkaClusterCommunicateMasterNode.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/GAkkaClusterCommunicateMasterNode.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/GAkkaClusterCommunicateRegisterInfo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/GAkkaClusterCommunicateRegisterInfo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/GAkkaClusterCommunicateWorkerNode.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/GAkkaClusterCommunicateWorkerNode.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/GAkkaMultiPortCommunicatePerson.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/GAkkaMultiPortCommunicatePerson.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/GAkkaMultiPortCommunicateSiri.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/GAkkaMultiPortCommunicateSiri.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/scala/GAkkaSelfCommunicate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/scala/GAkkaSelfCommunicate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/app1/GetTop10Categories.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/app1/GetTop10Categories.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/ASparkHelloWorld.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/ASparkHelloWorld.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/ASparkSaveAsTextFileMultiPartition.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/ASparkSaveAsTextFileMultiPartition.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateActionCollect.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateActionCollect.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateActionOther.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateActionOther.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformDistinct.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformDistinct.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformFilter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformFilter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformGroupBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformGroupBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformGroupByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformGroupByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformMapValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformMapValue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformReduceByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformReduceByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformSortBy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformSortBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformSortByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformSortByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/spark/base/BSparkRDDOperateTransformWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/spark/base/BSparkRDDOperateTransformWordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/ActorPerson.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/utils/ActorPerson.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/Person.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/utils/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/Search.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/utils/Search.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/StringSearch.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/utils/StringSearch.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learn/src/main/java/base/utils/test/TestActorPerson.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/utils/test/TestActorPerson.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql/src/main/java/org/example/MysqlApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql/src/main/java/org/example/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql/src/main/java/org/example/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql/src/main/java/org/example/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +99,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -41,7 +111,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tecWang/bigdata.git&quot;,
-    &quot;accountId&quot;: &quot;ff3f1c4c-d5d5-45dc-8ee0-4a30eb20c9d0&quot;
+    &quot;accountId&quot;: &quot;11668b21-13e2-48f5-8dd0-bddc7041558f&quot;
   }
 }</component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -59,42 +129,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ASparkHelloWorld.executor": "Run",
-    "Application.BSparkRDDOperateActionCollect.executor": "Run",
-    "Application.BSparkRDDOperateActionCount.executor": "Run",
-    "Application.BSparkRDDOperateActionOther.executor": "Run",
-    "Application.BSparkRDDOperateTransformFilter.executor": "Run",
-    "Application.BSparkRDDOperateTransformGroupByKey.executor": "Run",
-    "Application.BSparkRDDOperateTransformMapValue.executor": "Run",
-    "Application.BSparkRDDOperateTransformReduceByKey.executor": "Run",
-    "Application.BSparkRDDOperateTransformSortByKey.executor": "Run",
-    "Application.BSparkRDDOperateTransformWordCount.executor": "Run",
-    "Application.BSparkRDDTransformMethodsDistinct.executor": "Run",
-    "Application.BSparkRDDTransformMethodsGroupby.executor": "Run",
-    "Application.BSparkRDDTransformMethodsMap.executor": "Run",
-    "Application.BSparkRDDTransformMethodsShuffle.executor": "Run",
-    "Application.BSparkRDDTransformMethodsSortby.executor": "Run",
-    "Application.GetTop10Categories.executor": "Run",
-    "Application.TestUtilActor.executor": "Run",
-    "Application.base.spark.ASparkHelloWorld (1).executor": "Run",
-    "Application.base.spark.ASparkHelloWorld.executor": "Debug",
-    "Application.test.executor": "Run",
-    "Maven.bigdata [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rumor/.github/bigdata",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1367816",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AFlinkWordCountDataStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ASparkHelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateActionCollect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateActionCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateActionOther.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateTransformFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateTransformGroupByKey.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateTransformMapValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateTransformReduceByKey.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateTransformSortByKey.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDOperateTransformWordCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDTransformMethodsDistinct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDTransformMethodsGroupby.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDTransformMethodsMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDTransformMethodsShuffle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSparkRDDTransformMethodsSortby.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetTop10Categories.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestUtilActor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.base.spark.ASparkHelloWorld (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.base.spark.ASparkHelloWorld.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bigdata [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rumor/.github/bigdata&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1367816&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rumor\.github\bigdata\src" />
       <recent name="C:\Users\tecwang\GitRepos\bigdata" />
       <recent name="C:\Users\rumor\.github\bigdata\src\learn" />
     </key>
@@ -102,13 +174,13 @@
       <recent name="org.base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetTop10Categories">
-    <configuration name="BSparkRDDOperateActionCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="base.spark.BSparkRDDOperateActionCount" />
-      <module name="learn" />
+  <component name="RunManager" selected="Application.AFlinkWordCountDataStream">
+    <configuration name="AFlinkWordCountDataStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="base.flink.AFlinkWordCountDataStream" />
+      <module name="bigdata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.spark.*" />
+          <option name="PATTERN" value="base.flink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,13 +240,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AFlinkWordCountDataStream" />
+      <item itemvalue="Application.GetTop10Categories" />
+      <item itemvalue="Application.BSparkRDDOperateActionOther" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.TestUtilActor" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AFlinkWordCountDataStream" />
         <item itemvalue="Application.GetTop10Categories" />
         <item itemvalue="Application.BSparkRDDOperateActionOther" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.TestUtilActor" />
-        <item itemvalue="Application.BSparkRDDOperateActionCount" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +266,15 @@
       <option name="presentableId" value="Default" />
       <updated>1726625743622</updated>
     </task>
+    <task id="LOCAL-00001" summary="20241005 优化mysql安装步骤，初学flink，跑通wordcount程序">
+      <option name="closed" value="true" />
+      <created>1728137106493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728137106493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,5 +287,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20241005 优化mysql安装步骤，初学flink，跑通wordcount程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="20241005 优化mysql安装步骤，初学flink，跑通wordcount程序" />
   </component>
 </project>

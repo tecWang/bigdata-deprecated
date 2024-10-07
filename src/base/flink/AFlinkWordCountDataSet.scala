@@ -4,6 +4,10 @@ package base.flink
 // 直接引入所有内容
 import org.apache.flink.api.scala._
 
+// 本样例主要是为了展示 flink 的批处理能力
+// 但是 dataset 其实已经属于过期的方法了，需要把所有数据收集齐，才能开始处理，作为有界流处理就好了
+    // 建议使用 dataStream
+
 object AFlinkWordCountDataSet {
     def main(args: Array[String]): Unit = {
 

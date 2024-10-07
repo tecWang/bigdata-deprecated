@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="20241005 优化mysql安装步骤，初学flink，跑通wordcount程序" />
+    <list default="true" id="69e7a239-4f17-4782-a04b-b32943e15d22" name="Changes" comment="20241005 优化mysql安装步骤，初学flink，跑通wordcount程序">
+      <change beforePath="$PROJECT_DIR$/src/sql/00000000 [win11]本地使用docker创建ubuntu容器.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql/00000000 [win11]本地使用docker创建ubuntu容器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql/00000000 连接hive线上数据库步骤（无需本地配置）.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql/00000000 连接hive线上数据库步骤（无需本地配置）.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

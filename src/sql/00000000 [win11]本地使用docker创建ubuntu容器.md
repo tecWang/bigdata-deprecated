@@ -1,6 +1,27 @@
 
 ### 1. 安装docker
 
+```bash
+# docker 设置国内镜像
+# 直接替换 docker 中的信息即可。修改位置在：docker for windows --> settings --> docker engine
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "registry-mirrors": [
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://registry.docker-cn.com",
+    "http://hub-mirror.c.163.com",
+    "https://mirror.ccs.tencentyun.com"
+  ]
+}
+
+```
+
 ### 2. 搜索ubuntu镜像
 
 ```bash
